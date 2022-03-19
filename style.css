@@ -1,40 +1,135 @@
-.Header {
-    text-align: center;
-    padding: 14px;
+
+
+.Navigation {
+    text-align: left;
+    padding: 33px;
     display: block;
-    position: fixed; top: 0;
-    display: flex;
-    flex-direction: row;
-    height: 5%;
-}
 
-.Header .search-container {
-    float: center;
-    align-items: center;
-    width: 333px;
-    padding: 4px;
-    margin: 2px;
-    
-}
-
-.Main {
-    height: 50%;
+    height: 10%;
     width: 100%;
 }
 
-ol {
-    margin: 0 0 0 10px;
-    padding: 0;
-    border: 1px solid blanchedalmond;
-    background-color: coral;
-    float: center;
+@media screen {
+    .Main, .Main2, .Main3, .Main4, footer {
+        height: 80%;
+        width: 80%
     }
+}
+
+.Main {
+    height: 20%;
+    width: 100%;
+    background-color: darkgray;
+    display: flex;
+}
+
+.Cards {
+    flex: 1;
+    display: inline-block;
+}
+
+.Login {
+    height: 20%;
+    display: inline;
+    display: inline-block;
+    width: 50%;
+    background-color: darkgray;
+}
+
+.Main2 {
+    display: flex;
+    
+    width: 100%;
+    padding: 20px 30px 30px;
+    background-color: aliceblue;
+}
+
+.Main2_image {
+    flex: 1;
+    display: inline_block;
+    
+}
+.Main2_text {
+    display: inline;
+    margin-right: 20px;
+
+}
+.Main3 {
+    display: flex;
+    width: 100%;
+    padding: 20px 30px 30px;
+    background-color: rgb(255, 254, 235);
+}
+
+.Main3_image {
+    flex: 1;
+    display: inline_block;
+}
+.Main3_text {
+    display: inline;
+    margin-right: 20px;
+ 
+}
+
+.Main4 {
+    display: flex;
+    width: 100%;
+    padding: 20px 30px 30px;
+    background-color: aliceblue;
+}
+.Main4_image {
+    flex: 1;
+    display: inline_block;
+}
+.Main4_text {
+    display: inline;
+    margin-right: 20px;
+
+}
+
+.Footer {
+    height: 25%;
+    width: 100%;
+    text-align: center;
+    background-color:thistle;
+}
+
+ul {
+
+    overflow: hidden;
+    background-color: rgba(4, 4, 117, 0.795);
+}
+
 li {
-        float: left;
-    }
+    float: left;
+}
+
 
 li a {
+    list-style-type: none;
         display:block;
         padding: 10px;
-        background-color:lightseagreen;
+        margin: 30px;
+        color: white;
+
     }
+
+li a:hover {
+    background-color: cornflowerblue;
+}
+
+ol li a{
+    list-style-type: none;
+    color:black;
+}
+
+.button {
+    padding: 15px 30px;
+    background-color:rgb(5, 105, 92);
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 6px, 3px;
+    cursor: pointer;
+}
